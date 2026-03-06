@@ -584,6 +584,31 @@ a{ color:inherit; text-decoration:none; }
    Mobile
 ========================= */
 @media (max-width: 900px){
+  .header-row{
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .logo{
+    align-self: flex-start;
+  }
+
+  .nav{
+    display:grid;
+    grid-template-columns: repeat(2, max-content);
+    gap:0.45rem;
+    width:auto;
+    justify-content:end;
+  }
+
+  .nav .btn{
+    display:block;
+    text-align:center;
+    width:auto;
+    padding:0.35rem 0.55rem;
+  }
+
   .hero-grid{ grid-template-columns: 1fr; }
   .quick{ grid-template-columns: 1fr; }
   .location-card{ grid-template-columns: 1fr; }
