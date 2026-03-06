@@ -62,15 +62,15 @@ a{ color:inherit; text-decoration:none; }
 }
 
 .logo{
-  /* Dancing Script offers a playful, rhythmic feel with swooping letters */
-  font-family: "Dancing Script", cursive;
-  font-size: 2rem; /* slightly smaller to compact header further */
+  font-family: "Great Vibes", cursive;
+  font-size: 40px; /* slightly smaller to compact header further */
   font-weight: 700;      /* use the heavier weight for better visibility */
-  letter-spacing: 0.3px;
+  letter-spacing: 1px;
   color: var(--text);
   display: inline-block; /* needed for transform */
   /* animate on hover for an extra dancing effect */
 }
+
 
 .logo:hover{
   animation: logo-dance 1s ease-in-out infinite;
