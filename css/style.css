@@ -66,6 +66,7 @@ a{ color:inherit; text-decoration:none; }
   font-size: 30px; /* slightly smaller to compact header further */
   font-weight: 700;      /* use the heavier weight for better visibility */
   letter-spacing: 1px;
+  white-space: nowrap; /* prevent breaking on smaller screens */
   color: var(--text);
   display: inline-block; /* needed for transform */
   /* animate on hover for an extra dancing effect */
