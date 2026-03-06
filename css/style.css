@@ -63,13 +63,18 @@ a{ color:inherit; text-decoration:none; }
 
 .logo{
   font-family: "Great Vibes", cursive;
-  font-size: 30px; /* slightly smaller to compact header further */
+  font-size: 35px; /* slightly smaller to compact header further */
   font-weight: 700;      /* use the heavier weight for better visibility */
   letter-spacing: 1px;
-  white-space: nowrap; /* prevent breaking on smaller screens */
+  line-height: 1;
   color: var(--text);
   display: inline-block; /* needed for transform */
   /* animate on hover for an extra dancing effect */
+}
+
+.logo-line-1,
+.logo-line-2{
+  display: block;
 }
 
 
